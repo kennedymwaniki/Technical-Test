@@ -49,6 +49,7 @@ const capitalized = (words) => {
 
 capitalized("hi");
 capitalized("i love programming");
+capitalized("my name is Kennedy");
 
 /*
 Question 5: Reverse Integer
@@ -67,4 +68,5 @@ const reversedInteger = (integer) => {
 };
 console.log(reversedInteger(500));
 console.log(reversedInteger(-56));
-console.log(reversedInteger(-98));
+console.log(reversedInteger(-90));
+console.log(reversedInteger(-19));
