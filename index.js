@@ -18,6 +18,21 @@ for (i = 1; i < 100; i++) {
 // Q2
 // Write a program to generate the Fibonacci sequence up to 100.
 
+const fibonacciSequence = (limit) => {
+  let sequence = [0, 1];
+  for (let i = 2; ; i++) {
+    let next = sequence[i - 1] + sequence[i - 2];
+    if (next > limit) {
+      break;
+    }
+    sequence.push(next);
+  }
+  return sequence;
+};
+
+let fibonacci100 = fibonacciSequence(100);
+console.log(fibonacciUpTo100);
+
 /*
 Question 3: Power of Two
 Write a program that takes an integer as input and returns true if the input is a power of two.
