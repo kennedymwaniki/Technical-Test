@@ -64,7 +64,7 @@ const capitalized = (words) => {
 
 capitalized("hi");
 capitalized("i love programming");
-capitalized("my name is Kennedy");
+capitalized("my name is kennedy");
 
 /*
 Question 5: Reverse Integer
