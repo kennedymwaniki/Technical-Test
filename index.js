@@ -30,8 +30,7 @@ const fibonacciSequence = (limit) => {
   return sequence;
 };
 
-let fibonacci100 = fibonacciSequence(100);
-console.log(fibonacciUpTo100);
+fibonacciSequence(100);
 
 /*
 Question 3: Power of Two
